@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6c6c;
+}
+a{
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #fff;
+}
+header{
+  width: 100%;
+  height: 100px;
+  padding: 10px 0;
+  margin: 0 auto;
+  text-align: center;
+  background-color: darkgreen;
+}
+header .heading{
+  font-size: 32px;
+}
+
+.nav-list{
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+.nav-list-item{
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.main-visual{
+  width: 100%;
+  height: 100%;
+  margin: 10 40px;
+  background-color: #ecfcdf;
+}
+
+#main{
+  height: 100%;
+  margin: 0 auto;
+  padding: 10px 40px 40px 40px;
+  background-color: #ecfcdf;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.self-heading{
+  text-align: center;
+  font-size: 24px;
+  line-height: 0.9;
+  color: black;
+  width: 30%;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+.self-box{
+  padding: 20px 0 10px 0;
+  width: 100%;
+  display: flex;
+}
+.self-img{
+  width: 30%;
+  margin: 0 10px 0 0;
+}
+.img{
+  width: 100%;
+  border-radius: 10px;
+}
+.self{
+  width: 70%;
+  font-size: 16px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.self1{
+  display: flex;
+  width: 100%;
+  height: 40px;
+}
+.self p{
+  font-size: 14px;
+}
+.content1{
+  width: 100px;
+  text-align: left;
+  font-weight: bold;
+  padding: 10px 10px;
+}
+.content{
+  text-align: left;
+  padding: 10px 10px;
+}
+.self2{
+  display: flex;
+  width: 100%;
+  height: 40px;
+}
+.self3{
+  display: flex;
+  width: 100%;
+  height: 40px;
+}
+.self4{
+  display: flex;
+  width: 100%;
+  height: 160px;
+}
+.self4-content{
+  width: 100%;
+  height: 40px;
+}
+.content2{
+  display: flex;
+  text-align: left;
+  padding: 10px 10px;
+}
+.self5{
+  display: flex;
+  width: 100%;
+  height: 120px;
+}
+.self6{
+  display: flex;
+  width: 100%;
+  height: 80px;
+}
+.fa-brands{
+  display: flex;
+  text-align: left;
+  margin: 10px 10px;
+}
+
+footer{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  background-color: darkgreen;
+}
+footer p{
+  color: #fff;
+}
+
+@media screen and (max-width:768px) {
+  .nav-list{
+    width: 100px;
+  }
+  .nav-list-item{
+    width: 100%;
+  }
+  .main-visual{
+    width: 100%;
+  }
+  main{
+    width: 100%;
+    display: block;
+  }
+  .self-heading{
+    width: 100%;
+  }
+  .self-box{
+    display: block;
+  }
+  .self-img{
+    width: 100%;
+  }
+  .self{
+    width: 100%;
+  }
+}
